@@ -3,19 +3,33 @@ Dự án CNPM
 dự án CNPM intern-management-system/
 
 ims/
+
 ├── app.py
+
 ├── config.py
+
 ├── models.py
+
 ├── routes/
+
 │   ├── auth.py
+
 │   ├── interns.py
+
 │   ├── hr.py
+
 │   ├── mentors.py
+
 │   └── coordinator.py
+
 ├── templates/
+
 │   └── base.html
+
 ├── static/
+
 │   └── style.css
+
 └── requirements.txt
 
 ---
