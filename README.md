@@ -2,31 +2,21 @@
 Dự án CNPM
 dự án CNPM intern-management-system/
 
-├── app/
-
-│  ├── pycache/ # Cache tạm của Python
-
-│  ├── api/ # Route và controller xử lý yêu cầu HTTP
-
-│  ├── models/ # Định nghĩa schema & ORM (SQLAlchemy, v.v.)
-
-│  ├── repositories/ # Tầng truy xuất dữ liệu
-
-│  ├── schemas/ # Pydantic schemas / DTOs (request & response)
-
-│  ├── services/ # Logic xử lý nghiệp vụ
-
-│  └── init.py # Khởi tạo app module
-
-├── tests/ # Unit test cho các chức năng chính
-
-├── config.py # Thiết lập cấu hình hệ thống
-
-├── run.py # Entry point để khởi chạy Flask app
-
-├── requirements.txt # Danh sách thư viện Python cần cài
-
-└── README.md # Tài liệu hướng dẫn dự án
+ims/
+├── app.py
+├── config.py
+├── models.py
+├── routes/
+│   ├── auth.py
+│   ├── interns.py
+│   ├── hr.py
+│   ├── mentors.py
+│   └── coordinator.py
+├── templates/
+│   └── base.html
+├── static/
+│   └── style.css
+└── requirements.txt
 
 ---
 
