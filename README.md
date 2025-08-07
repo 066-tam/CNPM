@@ -2,31 +2,73 @@
 Dự án CNPM
 dự án CNPM intern-management-system/
 
-├── app/
+intern-management-system/
 
-│  ├── pycache/ # Cache tạm của Python
+├── backend/                  # API services (Express/Django/etc.)
 
-│  ├── api/ # Route và controller xử lý yêu cầu HTTP
+│   ├── src/
 
-│  ├── models/ # Định nghĩa schema & ORM (SQLAlchemy, v.v.)
+│   │   ├── controllers/
 
-│  ├── repositories/ # Tầng truy xuất dữ liệu
+│   │   ├── models/
 
-│  ├── schemas/ # Pydantic schemas / DTOs (request & response)
+│   │   ├── routes/
 
-│  ├── services/ # Logic xử lý nghiệp vụ
+│   │   ├── services/
 
-│  └── init.py # Khởi tạo app module
+│   │   └── utils/
 
-├── tests/ # Unit test cho các chức năng chính
+│   ├── .env
 
-├── config.py # Thiết lập cấu hình hệ thống
+│   ├── app.js
 
-├── run.py # Entry point để khởi chạy Flask app
+│   └── package.json / manage.py
 
-├── requirements.txt # Danh sách thư viện Python cần cài
+│
 
-└── README.md # Tài liệu hướng dẫn dự án
+├── frontend/                 # (Optional) Frontend app (React/Vue/etc.)
+
+│   ├── public/
+
+│   ├── src/
+
+│   │   ├── components/
+
+│   │   ├── pages/
+
+│   │   ├── services/
+
+│   │   └── App.js
+
+│   └── package.json
+
+│
+
+├── diagrams/                # All system design diagrams
+
+│   ├── context-diagram.drawio
+
+│   ├── ims_erd.drawio
+
+│   ├── use-case.drawio
+
+│   └── *.png / *.svg
+
+│
+
+├── docs/                    # Technical documentation
+
+│   ├── system-design.md
+
+│   └── api-guide.md
+
+│
+
+├── openapi_spec.yaml        # OpenAPI / Swagger spec
+
+├── README.md                # Project overview
+
+└── LICENSE                  # License file (MIT/GPL/etc.)
 
 ---
 

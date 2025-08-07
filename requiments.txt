@@ -1,0 +1,28 @@
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-Migrate
+Flask-Bcrypt
+
+
+
+
+                     +-------------------+
+                     |    HR Manager     |
+                     +--------+----------+
+                              |
+                              |
+                              v
++--------+         +----------+----------+         +--------+
+| Intern | <-----> |  Intern Management | <-----> |  Admin |
++--------+         |     System (IMS)   |         +--------+
+                              ^
+                              |
+                 +------------+------------+
+                 | Internship Coordinator  |
+                 +-------------------------+
+                              ^
+                              |
+                        +-----+-----+
+                        |  Mentor   |
+                        +-----------+
