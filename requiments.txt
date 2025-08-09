@@ -1,28 +1,9 @@
-Flask
-Flask-SQLAlchemy
-Flask-Login
-Flask-Migrate
-Flask-Bcrypt
+flask
+flask-sqlalchemy
+flask-migrate
+marshmallow
+marshmallow-sqlalchemy
+flask-cors
+flask-jwt-extended
+python-dotenv
 
-
-
-
-                     +-------------------+
-                     |    HR Manager     |
-                     +--------+----------+
-                              |
-                              |
-                              v
-+--------+         +----------+----------+         +--------+
-| Intern | <-----> |  Intern Management | <-----> |  Admin |
-+--------+         |     System (IMS)   |         +--------+
-                              ^
-                              |
-                 +------------+------------+
-                 | Internship Coordinator  |
-                 +-------------------------+
-                              ^
-                              |
-                        +-----+-----+
-                        |  Mentor   |
-                        +-----------+

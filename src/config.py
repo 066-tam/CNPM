@@ -1,6 +1,6 @@
 import os
 
 class Config:
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'your-secret-key'
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///ims.db'
+    SECRET_KEY = os.getenv("SECRET_KEY", "super-secret-key")
+    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL", "postgresql://user:pass@localhost/ims_db")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
