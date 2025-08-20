@@ -90,4 +90,13 @@ pip install -r requirements.txt
 
 # 2. Chạy ứng dụng Flask
 python run.py
+# Intern Management System (IMS)
+
+FastAPI backend for managing internships.
+
+## Run
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+Default admin: admin@ims.local / admin123
 
