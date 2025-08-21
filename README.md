@@ -100,3 +100,4 @@ uvicorn app.main:app --reload
 
 Default admin: admin@ims.local / admin123
 
+## Hướng dẫn sử dụng
