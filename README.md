@@ -100,3 +100,5 @@ uvicorn app.main:app --reload
 
 Default admin: admin@ims.local / admin123
 
+# CNPM Project
+Contributor: ToMinhTu-1
