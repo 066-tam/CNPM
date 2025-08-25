@@ -82,22 +82,35 @@ Hệ thống giúp doanh nghiệp quản lý toàn diện thực tập sinh:
 
 ---
 
-##  Khởi chạy dự án
+# IMS API (FastAPI) - Complete
+
+## Quick start
+
+1. Create virtualenv and install:
 
 ```bash
-# 1. Cài đặt thư viện cần thiết
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\\Scripts\\activate
 pip install -r requirements.txt
+```
 
-# 2. Chạy ứng dụng Flask
-python run.py
-# Intern Management System (IMS)
+2. Copy `.env.example` -> `.env` and set SECRET_KEY.
 
-FastAPI backend for managing internships.
+3. Initialize sample data (creates DB and sample users):
 
-## Run
-pip install -r requirements.txt
+```bash
+python -m app.sample_data
+```
+
+4. Run server:
+
+```bash
 uvicorn app.main:app --reload
+```
 
-Default admin: admin@ims.local / admin123
+Open http://127.0.0.1:8000/docs
 
-## Hướng dẫn sử dụng
+## Notes
+- Uses SQLite by default (`ims.db`).
+- Token auth: use `/api/token` (form data: username, password) to get Bearer token.
+
