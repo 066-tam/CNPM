@@ -114,3 +114,5 @@ Open http://127.0.0.1:8000/docs
 - Uses SQLite by default (`ims.db`).
 - Token auth: use `/api/token` (form data: username, password) to get Bearer token.
 
+# CNPM Project
+Contributor: ToMinhTu-1
