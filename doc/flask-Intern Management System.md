@@ -1,4 +1,5 @@
 intern-management-system/
+
 ├── app/                       # Source code chính
 │   ├── api/
 │   │   ├── routers/           # Routers cho từng actor
