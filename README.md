@@ -158,27 +158,6 @@ Hệ thống giúp doanh nghiệp quản lý toàn diện thực tập sinh:
 
 ## Quick start
 
-1. Create virtualenv and install:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt
-```
-
-2. Copy `.env.example` -> `.env` and set SECRET_KEY.
-
-3. Initialize sample data (creates DB and sample users):
-
-```bash
-python -m app.sample_data
-```
-
-4. Run server:
-
-```bash
-uvicorn app.main:app --reload
-```
 
 
 
